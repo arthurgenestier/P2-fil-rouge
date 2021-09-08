@@ -1,0 +1,155 @@
+@font-face{
+  src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+  font-family:'Nanum Gothic', sans-serif;;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Taille de la police en rem */
+html { font-size: 62.5%; }
+
+body {
+  max-width: 102.4rem;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Nanum Gothic', monospace;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+@media (min-width: 50em) {
+  .section-container {
+  display: flex;
+  flex-wrap:wrap
+  }
+
+}
+
+@media (min-width: 50em) {
+  #experiences,
+  #formations,
+  #compétences,
+  #interet {
+
+      max-width:100%;
+      width: calc(50% - 4rem);
+      margin: 0 2rem;
+  }
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+  border: 2px solid;
+  color: saddlebrown;
+}
+
+.container {
+    background-color: AliceBlue;
+    padding: 20px;
+}
+
+.container::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.photo {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+blockquote {
+  color: black;
+}
+
+blockquote p {
+  color: black;
+}
+
+section {
+  border-bottom: 1px solid gray;
+}
+
+#citation-2 {
+  background-color: lightsalmon;
+}
+
+.liste-2 {
+  color: crimson;
+}
+
+.pair {
+  color: black;
+  border: 1px solid black;;
+}
+
+.pair p {
+  color: black;
+}
+
+.impair {
+  border: 1px solid tomato;
+  clear: left;
+}
+
+.center {
+  text-align: center;
+}
+
+h3 span {
+  color: rebeccapurple;
+}
+
+h3 + p {
+  font-size: 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+  font-size: 18px;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.video_wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+  }
+  iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+  

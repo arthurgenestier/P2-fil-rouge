@@ -1,0 +1,109 @@
+body {
+  font-family: 'Nanum Gothic', monospace;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+  border: 2px solid;
+  color: saddlebrown;
+}
+
+.container {
+    background-color: AliceBlue;
+    padding: 20px;
+}
+
+.container::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.photo {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+blockquote {
+  color: black;
+}
+
+blockquote p {
+  color: black;
+}
+
+section {
+  border-bottom: 1px solid gray;
+}
+
+#citation-2 {
+  background-color: lightsalmon;
+}
+
+.liste-2 {
+  color: crimson;
+}
+
+.pair {
+  color: black;
+  border: 1px solid black;;
+}
+
+.pair p {
+  color: black;
+}
+
+.impair {
+  border: 1px solid tomato;
+  clear: left;
+}
+
+.center {
+  text-align: center;
+}
+
+h3 span {
+  color: rebeccapurple;
+}
+
+h3 + p {
+  font-size: 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+  font-size: 18px;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social-item {
+    display: inline-block;
+    margin: 10px;
+}
